@@ -25,6 +25,8 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: SUDARSAN.A
 RegisterNumber:  212224220111
 */
+```
+```
  # Importing necessary libraries
 import pandas as pd
 import numpy as np
