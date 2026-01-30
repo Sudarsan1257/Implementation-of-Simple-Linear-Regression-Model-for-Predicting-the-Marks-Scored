@@ -21,25 +21,7 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: SUDARSAN.A
 RegisterNumber:  212224220111
 */
-[10:11 am, 29/01/2026] Srinivasan: import numpy as np
-import matplotlib.pyplot as plt
-X=np.array(eval(input()))
-Y=np.array(eval(input()))
-Xmean=np.mean(X)
-Ymean=np.mean(Y)
-num,den=0,0 # num = numerator, den = denomenator
-for i in range(len(X)):
-  num+=(X[i]-Xmean)*(Y[i]-Ymean)
-  den+=(X[i]-Xmean)**2
-m=num/den
-c=Ymean-m*Xmean
-print(m,c)
-Y_pred=m*X+c
-print(Y_pred)
-plt.scatter(X,Y)
-plt.plot(X,Y_pred,color="red")
-plt.show()
-[10:36 am, 30/01/2026] Srinivasan: # Importing necessary libraries
+ # Importing necessary libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
